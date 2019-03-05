@@ -1,6 +1,10 @@
 <?php
+/**
+ * Settings English Lexicon Entries for tagCanonical
+ *
+ * @package tagCanonical
+ * @subpackage lexicon
+ */
 
-$_lang['area_tagcanonical_main'] = 'Main';
-
-$_lang['setting_tagcanonical_some_setting'] = 'Some setting';
-$_lang['setting_tagcanonical_some_setting_desc'] = 'This is description for some setting';
+$_lang['setting_tagcanonical_tv'] = 'ID of additional field (TV) for canonical links';
+$_lang['setting_tagcanonical_tv_desc'] = 'Specify an additional field ID (TV) in which the list of allowed GET parameters will be indicated.';

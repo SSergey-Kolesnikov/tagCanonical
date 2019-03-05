@@ -1,8 +1,11 @@
 <?php
+/**
+ * Properties Russian Lexicon Entries for tagCanonical
+ *
+ * @package tagCanonical
+ * @subpackage lexicon
+ */
 
-$_lang['tagcanonical_prop_limit'] = 'Ограничение вывода Предметов на странице.';
-$_lang['tagcanonical_prop_outputSeparator'] = 'Разделитель вывода строк.';
-$_lang['tagcanonical_prop_sortby'] = 'Поле сортировки.';
-$_lang['tagcanonical_prop_sortdir'] = 'Направление сортировки.';
-$_lang['tagcanonical_prop_tpl'] = 'Чанк оформления каждого ряда Предметов.';
-$_lang['tagcanonical_prop_toPlaceholder'] = 'Усли указан этот параметр, то результат будет сохранен в плейсхолдер, вместо прямого вывода на странице.';
+$_lang['tagcanonical_prop_delimiter'] = 'Разделитель для передаваемых GET-параметров';
+$_lang['tagcanonical_prop_get'] = 'Список разрешенных GET-параметров, которые будут отображаться в канонической ссылке';
+$_lang['tagcanonical_prop_removeParameters'] = 'Отмечаем "Да", если необходимо удалить все GET-параметры из канонической ссылки';

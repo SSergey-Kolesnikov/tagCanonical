@@ -1,7 +1,8 @@
 --------------------
 tagCanonical
 --------------------
-Author: Andrey Stepanenko <info@bustep.ru>
+Author: Sergey Kolesnikov
 --------------------
 
-A basic Extra for MODx Revolution.
+Managing canonical links in MODx Revolution.
+Package on GitHub: https://github.com/SSergey-Kolesnikov/tagCanonical

@@ -1,8 +1,11 @@
 <?php
+/**
+ * Properties English Lexicon Entries for tagCanonical
+ *
+ * @package tagCanonical
+ * @subpackage lexicon
+ */
 
-$_lang['tagcanonical_prop_limit'] = 'The number of Items to limit per page.';
-$_lang['tagcanonical_prop_outputSeparator'] = 'A string to separate each row with.';
-$_lang['tagcanonical_prop_sortby'] = 'The field to sort by.';
-$_lang['tagcanonical_prop_sortdir'] = 'The direction to sort by.';
-$_lang['tagcanonical_prop_tpl'] = 'The chunk to use for each row of Items.';
-$_lang['tagcanonical_prop_toPlaceholder'] = 'If set, will output the content to the placeholder specified in this property, rather than outputting the content directly.';
+$_lang['tagcanonical_prop_delimiter'] = 'Separator for GET-parameters passed';
+$_lang['tagcanonical_prop_get'] = 'List of allowed GET-parameters to be displayed in the canonical link';
+$_lang['tagcanonical_prop_removeParameters'] = 'Mark "Yes" if you need to remove all GET-parameters from the canonical link';

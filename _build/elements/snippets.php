@@ -3,33 +3,17 @@
 return [
     'tagCanonical' => [
         'file' => 'tagcanonical',
-        'description' => 'tagCanonical snippet to list items',
+        'description' => '',
         'properties' => [
-            'tpl' => [
+            'delimiter' => [
                 'type' => 'textfield',
-                'value' => 'tpl.tagCanonical.item',
+                'value' => ',',
             ],
-            'sortby' => [
+            'get' => [
                 'type' => 'textfield',
-                'value' => 'name',
+                'value' => '',
             ],
-            'sortdir' => [
-                'type' => 'list',
-                'options' => [
-                    ['text' => 'ASC', 'value' => 'ASC'],
-                    ['text' => 'DESC', 'value' => 'DESC'],
-                ],
-                'value' => 'ASC',
-            ],
-            'limit' => [
-                'type' => 'numberfield',
-                'value' => 10,
-            ],
-            'outputSeparator' => [
-                'type' => 'textfield',
-                'value' => "\n",
-            ],
-            'toPlaceholder' => [
+            'removeParameters' => [
                 'type' => 'combo-boolean',
                 'value' => false,
             ],
