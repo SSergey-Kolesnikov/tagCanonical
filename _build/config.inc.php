@@ -12,7 +12,7 @@ return [
     'name' => 'tagCanonical',
     'name_lower' => 'tagcanonical',
     'version' => '1.0.0',
-    'release' => 'beta',
+    'release' => 'pl',
     // Install package to site right after build
     'install' => true,
     'encryption_enable' => false,
